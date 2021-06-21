@@ -29,6 +29,7 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
+    margin: 0rem auto 10rem auto;
 }
 
 .bottom-page {
@@ -36,6 +37,8 @@ body {
 
 #google-logo {
     margin: 1rem;
+    width: auto;
+    height: 70px;
 }
 
 .search {
@@ -46,13 +49,16 @@ body {
     padding: 5px 8px 4px 16px;
     border: solid 1px rgba(223,225,229,1);
     border-radius: 2rem;
-    min-width: 30rem;
+    width: 40rem;
+    margin: 0rem 5rem;
 }
 
 #search-button {
     border: solid 1px rgba(223,225,229,0);
     outline: none;
     height: 34px;
+    width: 90%;
+    font-size: 18px;
 }
 
 .search:hover {
