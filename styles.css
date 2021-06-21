@@ -10,7 +10,7 @@ body {
 }
 
 .material-icons.light-gray {
-    color: #9aa0a6
+    color: #9aa0a6;
 }
 
 .google-homepage {
@@ -22,6 +22,37 @@ body {
     height: 100vh;
 }
 
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-right {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-item {
+    margin: .5rem 1rem;
+}
+
+.profile-icon {
+    margin: .3rem 0rem 0rem 0rem;
+}
+
 .top-page {
 }
 
@@ -29,10 +60,11 @@ body {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin: 0rem auto 10rem auto;
+    margin: 0rem auto 3rem auto;
 }
 
 .bottom-page {
+    margin: 0rem auto 15rem auto;
 }
 
 #google-logo {
@@ -64,4 +96,63 @@ body {
 .search:hover {
     box-shadow: 0 1px 6px rgba(32,33,36,.28);
     border: solid 1px rgba(223,225,229,0);
+}
+
+#search-button::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+
+#mag-glass {
+    margin: 0rem .5rem 0rem 0rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    background-color: #f2f2f2;
+}
+
+.footer-item {
+    margin: 0rem 2rem;
+}
+
+.s-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-search {
+    text-align: center;
+    width: 100%;
+    padding: .6rem .7rem;
+    background-color: #f8f9fa;
+    border-radius: .3rem;
+    margin: 1rem;
+}
+
+.lucky-search {
+    text-align: center;
+    min-width: 150px;
+    padding: .6rem 0rem .6rem 0rem;
+    background-color: #f8f9fa;
+    border-radius: .3rem;
+    margin: 1rem;
+}
+
+.lucky-search:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    cursor: pointer;
+}
+
+.google-search:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    cursor: pointer;
 }
